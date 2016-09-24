@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<title>Astro Weight Calculator</title>
+
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+ 	<link rel="stylesheet" type="text/css" href="index.css">
+
+	</head>
+
+	<body>
+
+			<h1 id="displayTitle">Astro Weight Calculator jQuery</h1>
+
+
+					<div id="mainDiv" class="row">
+						<div class="col-md-5">
+								<label id="EnterWeight" class="control-label">Enter Your Weight</label>
+								<input type="text" id="weight" class="form-control">
+		
+						</div>
+
+						<div class="col-md-5">
+								<label id="SelectPlanet">Select a Planet</label>
+								<select id="selectMenu" class="form-control">
+						<!--Create a form with Input and a Select menu-->
+								</select>
+
+						</div>
+
+						<div class="col-md-2">
+							<div class="bottom-column">
+								<button id="calculator" type="button" class="btn btn-primary form-control" class="calculateButton">Calculate</button>
+							</div>
+						</div>
+					</div>
+
+
+
+				<!--Display results by using JavaScript-->
+						<p> 
+						<pre id="results">
+						</pre>
+						</p>
+
+
+  		<script src="/bower_components/jquery/dist/jquery.js"></script>
+    	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    	<script src="index.js"></script>
+
+
+	</body>
+
+</html>
